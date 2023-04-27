@@ -1,5 +1,4 @@
 // complete the given function
-
 function palindrome(str){
 	str = str.replaceAll(" ", "");
 	str = str.toLowerString();
@@ -12,7 +11,7 @@ function palindrome(str){
 		i++;
 		j--;
 	}
-
 	return true;
 }
+
 module.exports = palindrome
